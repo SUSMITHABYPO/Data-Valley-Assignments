@@ -1,18 +1,18 @@
 class Animal {
     String makeSound() {
-        return "Animal makes a sound";
+        return "Animal have different sounds";
     }
 }
 
 class Dog extends Animal {
     String makeSound() {
-        return "Dog barks";
+        return "Dog sounds as BOW BOW";
     }
 }
 
 class Cat extends Animal {
     String makeSound() {
-        return "Cat meows";
+        return "Cat sounds as MEOW MEOW";
     }
 }
 
